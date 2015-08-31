@@ -20,7 +20,7 @@ class Airport
 		planes << plane
 	end
 
-	def take_off weather=Weather.new
+	def take_off weather = Weather.new
 		fail "There are no Planes" if empty?
 		return "The Weather is too stormy to take off" if weather.Stormy?
 		planes.last.take_off
@@ -36,5 +36,4 @@ class Airport
 	def empty?
 		planes.count == 0
 	end
-
 end

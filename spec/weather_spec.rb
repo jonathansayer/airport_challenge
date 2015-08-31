@@ -28,5 +28,4 @@ describe Weather do
 		allow(subject).to receive(:generator){90}
 		expect(subject.Stormy?).to eq true
 	end
-
 end

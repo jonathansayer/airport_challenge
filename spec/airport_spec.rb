@@ -87,5 +87,4 @@ describe Airport do
 			expect(subject.planes.length).to eq 1
 		end
 	end
-
 end
