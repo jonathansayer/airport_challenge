@@ -1,9 +1,9 @@
-class Plane 
+class Plane
 
 	attr_accessor :flying
 
 	def initialize
-		@flying=true
+		@flying = true
 	end
 
 	def flying?
@@ -11,10 +11,10 @@ class Plane
 	end
 
 	def land
-		self.flying=false
+		self.flying = false
 	end
 
 	def take_off
-		self.flying=true
+		self.flying = true
 	end
 end

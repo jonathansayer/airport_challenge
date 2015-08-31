@@ -3,7 +3,7 @@ class Weather
 	attr_accessor :generator
 
 	def initialize
-		@generator=rand(100)
+		@generator = rand(100)
 	end
 
 	def Sunny?
