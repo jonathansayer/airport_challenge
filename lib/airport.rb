@@ -13,7 +13,7 @@ class Airport
 		@capacity = DEFAULT_CAPACITY
 	end
 
-	def land_plane plane, weather=Weather.new
+	def land_plane plane, weather = Weather.new
 		fail "Airport Full" if full?
 		return "The storm has made it impossible to land" if weather.Stormy?
 		plane.land
