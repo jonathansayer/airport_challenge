@@ -53,11 +53,12 @@ $ git init
 $ git clone "blah blah blah"
 ```
 
-Once the repository has been cloned, change into the repo and run and interactive ruby environment such as irb or pry.
+Once the repository has been cloned, change into the repo and run bundle to download the appropriate gems. The Run an interactive ruby environment such as irb or pry.
 
 ```
-cd airport_challenge
-irb
+$ cd airport_challenge
+$ bundle
+$ irb
 2.2.1 :001 > require './lib/airport.rb'
 ```
 
@@ -82,7 +83,7 @@ On ocassion a storm may take hold making in impossible for an airport to take in
 2.2.1 :008 > airport.land_plane plane
       => "The storm has made it impossible to land"  
 ```
-If a storm is in town a plane cannot land or take off. 
+If a storm is in town a plane cannot land or take off.
 
 
 
