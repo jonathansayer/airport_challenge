@@ -50,7 +50,7 @@ In order to use the program the code base shoulf first either be cloned or pulle
 
 ```
 $ git init
-$ git clone "blah blah blah"
+$ git clone "https://github.com/jonathansayer/airport_challenge.git"
 ```
 
 Once the repository has been cloned, change into the repo and run bundle to download the appropriate gems. The Run an interactive ruby environment such as irb or pry.
