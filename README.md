@@ -85,14 +85,3 @@ On ocassion a storm may take hold making in impossible for an airport to take in
       => "The storm has made it impossible to land"  
 ```
 If a storm is in town a plane cannot land or take off.
-
-
-
-
-
-
-1. Fill out your learning plan self review for the week: https://github.com/makersacademy/learning_plan_june2015 (start by forking this repo, then edit week 1 - you can edit directly on Github)
-2. Fork this repo, and clone to your local machine
-3. run the command `gem install bundle`
-4. When the installation completes, run `bundle`
-3. Complete the following task:
