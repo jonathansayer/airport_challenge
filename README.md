@@ -27,7 +27,7 @@ How I Tackled the Challenge
 -------
 The whole of this Program is written with Test Driven Methodology. The very first step was to write a test for the "main" class, which in this example was the airport. The test in this case is shown below:
 
-(Enter screen shot of test)
+![Alt text](/images/first_test.png?raw=true)
 
 This test suite used for this particular example is Rspec. Once the test is failing for a right reasons (i.e not because of a syntax error in the test), the minimal amount of code is written in the airport class to pass the test. This process is repeated again. The User stories above drive the writing of the tests and the tests drive the writing of the code. Once the airport is complete, the same process was used to build the plane and weather classes.
 
