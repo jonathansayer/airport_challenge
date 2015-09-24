@@ -37,7 +37,8 @@ Difficulties
 
 The biggest difficulty I had with the writing of the code came with the introduction of Stubbing. Stubbing is a method used to remove dependancies on outside classes when testing the class you are writing. For example when I was testing the airport class I didn't want a bug in my Plane class to be causing my airport tests to fail. To remove this dependancy we introduce a double to take the place of the plane.
 
-(enter screen shot of double here)
+![Alt text](/images/plane_double.png?raw=true)
+
 
 This double behaves like the plane but only in the ways you explicitely state in the test. This means that the plane class is not involved when the test is running.
 
@@ -83,15 +84,4 @@ On ocassion a storm may take hold making in impossible for an airport to take in
 2.2.1 :008 > airport.land_plane plane
       => "The storm has made it impossible to land"  
 ```
-If a storm is in town a plane cannot land or take off.
-
-
-
-
-
-
-1. Fill out your learning plan self review for the week: https://github.com/makersacademy/learning_plan_june2015 (start by forking this repo, then edit week 1 - you can edit directly on Github)
-2. Fork this repo, and clone to your local machine
-3. run the command `gem install bundle`
-4. When the installation completes, run `bundle`
-3. Complete the following task:
+If a storm is in town, planes cannot land or take off.
