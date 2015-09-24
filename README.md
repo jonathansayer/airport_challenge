@@ -84,4 +84,4 @@ On ocassion a storm may take hold making in impossible for an airport to take in
 2.2.1 :008 > airport.land_plane plane
       => "The storm has made it impossible to land"  
 ```
-If a storm is in town a plane cannot land or take off.
+If a storm is in town, planes cannot land or take off.
