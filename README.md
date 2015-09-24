@@ -37,7 +37,8 @@ Difficulties
 
 The biggest difficulty I had with the writing of the code came with the introduction of Stubbing. Stubbing is a method used to remove dependancies on outside classes when testing the class you are writing. For example when I was testing the airport class I didn't want a bug in my Plane class to be causing my airport tests to fail. To remove this dependancy we introduce a double to take the place of the plane.
 
-(enter screen shot of double here)
+![Alt text](/images/plane_double.png?raw=true)
+
 
 This double behaves like the plane but only in the ways you explicitely state in the test. This means that the plane class is not involved when the test is running.
 
