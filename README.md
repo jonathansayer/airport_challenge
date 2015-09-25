@@ -35,19 +35,19 @@ This test suite used for this particular example is Rspec. Once the test is fail
 Difficulties
 -----
 
-The biggest difficulty I had with the writing of the code came with the introduction of Stubbing. Stubbing is a method used to remove dependancies on outside classes when testing the class you are writing. For example when I was testing the airport class I didn't want a bug in my Plane class to be causing my airport tests to fail. To remove this dependancy we introduce a double to take the place of the plane.
+The biggest difficulty I had with the writing of the code came with the introduction of Stubbing. Stubbing is a method used to remove dependancies on outside classes when testing the class you are writing. For example when I was testing the airport class I didn't want a bug in my Plane class to be causing my airport tests to fail. To remove this dependency we introduce a double to take the place of the plane.
 
 ![Alt text](/images/plane_double.png?raw=true)
 
 
-This double behaves like the plane but only in the ways you explicitely state in the test. This means that the plane class is not involved when the test is running.
+This double behaves like the plane but only in the ways you explicitly state in the test. This means that the plane class is not involved when the test is running.
 
 Stubbing tests was a new concept when writing this code base and one I had to learn myself in order to complete this challenge to the best of my ability.
 
 How to use the Program
 -----
 
-In order to use the program the code base should first either be cloned or pulled from the repository. This can be done by initialising git in a repository on your local machine. Run command line in a the desired repository and initialise git and clone this repo.
+In order to use the program the code base should first either be cloned or pulled from the repository. This can be done by initialising git in a repository on your local machine. Run command line in a the desired repository and initialize git and clone this repo.
 
 ```
 $ git init
@@ -63,7 +63,7 @@ $ irb
 2.2.1 :001 > require './lib/airport.rb'
 ```
 
-Now your ready to run the program. First initialise an airport and plane.
+Now your ready to run the program. First initialize an airport and plane.
 
 ```
 2.2.1 :002 > airport = Airport.new
@@ -78,7 +78,7 @@ Planes are initialised flying (in the air), the following methods can now be use
 2.2.1 :006 > airport.capacity  #returns the capacity of the airport.(20)
 2.2.1 :007 > airport.take_off  #releases the next plane in the order at the airport. The airport works on a first in first out basis.
 ```
-On ocassion a storm may take hold making in impossible for an airport to take in any more planes
+On occasion a storm may take hold making in impossible for an airport to take in any more planes
 
 ```
 2.2.1 :008 > airport.land_plane plane
