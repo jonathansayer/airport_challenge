@@ -47,7 +47,7 @@ Stubbing tests was a new concept when writing this code base and one I had to le
 How to use the Program
 -----
 
-In order to use the program the code base shoulf first either be cloned or pulled from the repository. This can be done by initialising git in a repository on your local machine. Run command line in a the desired repository and initialise git and clone this repo.
+In order to use the program the code base should first either be cloned or pulled from the repository. This can be done by initialising git in a repository on your local machine. Run command line in a the desired repository and initialise git and clone this repo.
 
 ```
 $ git init
