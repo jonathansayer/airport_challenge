@@ -1,6 +1,8 @@
 Airport Challenge
 =================
 
+![Travis CI builder](https://travis-ci.org/jonathansayer/airport_challenge.svg?branch=master)
+
 Introduction
 ---------
 The Airport Challenge is a Challenge which is issued by Makers Academy at the end of Week 1. The aim of the Challenge is to test drive the development of a model of an Airport. The user Stories are as follows:
